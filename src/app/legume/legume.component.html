@@ -1,0 +1,31 @@
+
+<ng-container>
+
+<ul>
+<li>
+  <img src="{{image}}" height="50" width="50"/>
+{{nom | uppercase}}
+Prix(kg) : {{prix}} 
+
+
+<input type="checkbox">Frais
+Quantité <input type="text"  #skan> 
+<input type="button" value ="Calcul Prix" (click) = "oncalculprix(skan.value)">
+</li>
+
+</ul>
+</ng-container>
+
+
+
+
+
+
+
+
+
+    Le nombre de legumes ayant un prix > 2.5 DT est :
+    Donnez un prix minimum <input type="text" >
+
+
+
